@@ -7,7 +7,7 @@ import { FaPeopleLine } from 'react-icons/fa6'
 const Header = () => {
   return (
     <div className='container'>
-      <div className="row my-1">
+      <div className="row">
         <div className="col-md-2 ">
           <img src={Logo} alt="" />
         </div>
