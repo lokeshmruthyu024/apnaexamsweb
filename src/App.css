@@ -1,0 +1,58 @@
+.nav-class {
+  list-style-type: none;
+  margin: 20px 2px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logoImg {
+  height: 70px;
+  width: 90%;
+}
+
+.nav-class li a {
+  padding: 10px 6px;
+  color: black;
+  border-radius: 0px 10px 0x 10px;
+  text-decoration: none;
+}
+
+.nav-class li a:hover {
+  background-color: #004f9e;
+  color: white;
+  padding: 10px 6px;
+  border-radius: 15px 0 15px 0;
+}
+
+.header-buttons {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+}
+
+.login-btn,
+.phone-btn {
+  white-space: nowrap;
+  border: none;
+}
+
+.login-btn {
+  background-color: #2abfa4;
+  font-weight: bold;
+  color: white;
+  padding: 5px 12px;
+}
+
+.phone-btn {
+  background-color: #004f9e;
+  color: white;
+  padding: 5px 12px;
+}
+
+.phone-btn .me-1 {
+  font-size: 18px;
+}
