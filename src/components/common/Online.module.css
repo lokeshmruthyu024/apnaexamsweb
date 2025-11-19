@@ -1,0 +1,41 @@
+.clr1 {
+  color: #004f9e;
+}
+
+.clr2 {
+  color: red;
+}
+
+.mainheading h2 {
+  font-size: 26px;
+}
+
+.mainheading span.line {
+  background: #004f9e;
+  display: block;
+  height: 5px;
+  margin: 0 auto;
+  position: relative;
+  width: 50px;
+}
+
+.mainheading span.line::before {
+  border-bottom: 1px solid #004f9e;
+  content: " ";
+  position: absolute;
+  top: 3px;
+  left: -50px;
+  width: 150px;
+}
+
+.images-exams {
+  width: 100px;
+  height: 100px;
+  -webkit-transition: -webkit-transform 0.8s ease-in-out;
+  transition: transform 0.8s ease-in-out;
+}
+
+.images-exams:hover {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
