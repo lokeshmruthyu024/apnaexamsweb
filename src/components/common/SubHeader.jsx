@@ -6,7 +6,7 @@ const SubHeader = () => {
   return (
     <div className={styles.subheader}>
       <div className="container">
-        <h2 className='text-center text-white py-1'>Online Exams Write More Live Exams
+        <h2 className='text-center text-white py-1 mb-0'>Online Exams Write More Live Exams
         </h2>
       </div>
     </div>
